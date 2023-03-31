@@ -18,5 +18,5 @@ app.use(
 
 app.use("/", homeController.logRequestPaths);
 
-app.post("/sign_up", homeController.userSignUpProcessor);
+app.post("/sign_up", homeController.userSignUpProcessor)
 
